@@ -65,7 +65,7 @@ shuffleDeck(){
 }
     
 
-// this function deal same number 26 cards to each of the two players 
+// this function deals 26 cards to each of the two players 
 
 dealDeck(players, shuffledDeck) {
      let dealingCards1 = shuffledDeck.splice(0, 26);
